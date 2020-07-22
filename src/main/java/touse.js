@@ -11,7 +11,7 @@ var app = document.getElementById('footer');
 app.removeAttribute('id')
 
 
-browserRedirect();
+// browserRedirect();
 
 function browserRedirect() {
     var sUserAgent = navigator.userAgent.toLowerCase();
