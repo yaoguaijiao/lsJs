@@ -8,7 +8,7 @@ var top_up = "<img id='upj' class='upj' style='max-width: 1000%; transform: tran
 document.getElementById("go-up").innerHTML += top_up;
 
 
-// browserRedirect();
+browserRedirect();
 
 function browserRedirect() {
     var sUserAgent = navigator.userAgent.toLowerCase();
