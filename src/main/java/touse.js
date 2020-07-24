@@ -10,6 +10,8 @@ document.getElementById("go-up").innerHTML += top_up;
 
 browserRedirect();
 
+document.getElementById('nav').style.background = 'transparent'
+
 function browserRedirect() {
     var sUserAgent = navigator.userAgent.toLowerCase();
     var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
