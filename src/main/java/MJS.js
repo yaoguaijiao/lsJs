@@ -1,11 +1,15 @@
 var xiaokang = new xkTool();
 
-// 设置随机背景的图片
-xiaokang.imgList = [
-    "https://s1.ax1x.com/2020/08/01/aG58Qf.jpg",
-    "https://s1.ax1x.com/2020/08/01/aG5yOU.jpg",
-    "https://s1.ax1x.com/2020/08/01/aGImcV.jpg",
-    "https://s1.ax1x.com/2020/08/01/aGIMBF.jpg"
-];
-// 调用随机背景
-xiaokang.randomBg();
+xiaokang.randomBanner(
+    "https://s1.ax1x.com/2020/08/01/aG58Qf",
+    ".jpg",
+    "https://s1.ax1x.com/2020/08/01/aG5yOU",
+    ".jpg",
+    "https://s1.ax1x.com/2020/08/01/aGImcV",
+    ".jpg",
+    "https://s1.ax1x.com/2020/08/01/aGIMBF", // 前半部分网址
+    ".jpg", // 后半部分网址
+    0, // 随机数开始范围
+    2, // 随机数结束范围
+    true // 是否开启滤镜 默认不开启
+);
